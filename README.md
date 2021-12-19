@@ -21,15 +21,13 @@ A S D F G H J K     <-- 2nd Octet
 Z X C V B N M <     <-- 3rd Octet
 
 There are the 8 instruments that we will be simulating:
-1.  Basic Drum Kit
-2.  Acoustic Guitar
-3.  Banjo
-4.  Grand Piano
-5.  Church Organ
-6.  Xylophone
-7.  Lush Strings
-8.  Sitar
-9.  Bagpipe
-10. Flute
+1. Basic Drum Kit
+2. Acoustic Guitar
+3. Banjo
+4. Grand Piano
+5. Xylophone
+6. Sitar
+7. Bagpipe
+8. Flute
 
 GOOD LUCK!
