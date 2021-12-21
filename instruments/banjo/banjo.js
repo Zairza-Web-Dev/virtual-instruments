@@ -79,11 +79,6 @@ const keyMap = {
   44: "../../assets/audio/banjo/24.wav",
 };
 
-document.addEventListener("click", (e) => {
-  const coords = { x: e.pageX, y: e.pageY };
-  console.log(coords);
-});
-
 document.addEventListener("keypress", (event) => {
   const coords = {
     x: Math.floor(Math.random() * 1200),
