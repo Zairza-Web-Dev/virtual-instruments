@@ -1,0 +1,19 @@
+.main-div {
+    width: 100%;
+    text-align: center;
+}
+
+.main-div > h1 {
+    margin: 10%;
+    font-size: 56px;
+}
+
+.main-div > p {
+    font-size: 24px;
+}
+
+.instrument-btn {
+    background-color: rgb(240, 240, 240);
+    padding: 1% 2% 1% 2%;
+    font-weight: 600;
+}

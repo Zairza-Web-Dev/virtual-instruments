@@ -30,7 +30,6 @@ const keyMap = {
 
 // Detecting keypress
 document.onkeypress = function(event) {
-    console.log(event.keyCode);
     // Fetching audio file location
     audioLoc = keyMap[event.keyCode.toString()];
 
