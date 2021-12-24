@@ -1,0 +1,21 @@
+.content {
+  background-image: url(../../assets/images/flute/51HwdIoIJuL._SL1500_.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxes {
+  padding: 15px;
+  background-color: rgb(255, 189, 127);
+  margin: 10px;
+  text-align: center;
+  opacity: 0.9;
+  font-size: 30px;
+  color: rgb(226, 34, 34);
+  font-weight: bolder;
+}
