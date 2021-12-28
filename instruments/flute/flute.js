@@ -33,8 +33,10 @@ document.addEventListener("keypress", (event) => {
   audio.play();
   document.getElementById("q"+event.keyCode.toString()).style.backgroundColor = "aqua";
   document.getElementById("q"+event.keyCode.toString()).style.borderRadius = "5px";
-  setTimeout(myFunction, 500);
-  function myFunction() {
+  
+  setTimeout(revertBack, 500);
+  
+  function revertBack() {
   document.getElementById("q"+event.keyCode.toString()).style.backgroundColor = "rgb(255, 189, 127)";
   document.getElementById("q"+event.keyCode.toString()).style.opacity = "0.7";
   document.getElementById("q"+event.keyCode.toString()).style.borderRadius = "0px";
