@@ -1,7 +1,7 @@
 All the audio files for individual instruments will be stored under
 assets/audio/<instrument_name>/
 
-While the html and css for each insturment's page will be stored under 
+While the html and css for each insturment's page will be stored under
 instruments/<instrument_name>/
 
 Be sure to use proper commenting wherever possible and keep care of identation
@@ -16,11 +16,12 @@ For the time being, use the sample sound set I provided in whatsapp and use thos
 
 Your key layout is
 
-Q W E R T Y U I     <-- 1st Octet
-A S D F G H J K     <-- 2nd Octet
-Z X C V B N M <     <-- 3rd Octet
+Q W E R T Y U I <-- 1st Octet
+A S D F G H J K <-- 2nd Octet
+Z X C V B N M < <-- 3rd Octet
 
 There are the 8 instruments that we will be simulating:
+
 1. Basic Drum Kit
 2. Acoustic Guitar
 3. Banjo
