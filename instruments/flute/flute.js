@@ -31,6 +31,14 @@ document.addEventListener("keypress", (event) => {
   audioLoc = keyMap[event.keyCode.toString()];
   var audio = new Audio(audioLoc);
   audio.play();
-  var myobj = document.getElementById("q"+event.keyCode.toString()).style.backgroundColor = "aqua";
+  document.getElementById("q"+event.keyCode.toString()).style.backgroundColor = "aqua";
   document.getElementById("q"+event.keyCode.toString()).style.borderRadius = "5px";
+  
+  setTimeout(revertBack, 500);
+  
+  function revertBack() {
+  document.getElementById("q"+event.keyCode.toString()).style.backgroundColor = "rgb(255, 189, 127)";
+  document.getElementById("q"+event.keyCode.toString()).style.opacity = "0.7";
+  document.getElementById("q"+event.keyCode.toString()).style.borderRadius = "0px";
+  }
 });
